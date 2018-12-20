@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Place2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="National Assembly"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jatiyo Sangsad Bhaban is the National Assembly Building of Bangladesh, located in the capital Dhaka. It was created by architect Louis Kahn and is one of the largest legislative complexes in the world. It houses all parliamentary activities of Bangladesh."
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="First, Muzharul Islam was given to design Jatiyo Sangshad Bhaban by the government. But, Islam brought his teacher Louis Kahn into the project to do a significant work for future generation. Muzharul Islam assisted Kahn at the project. According to Robert McCarter, author of Louis I. Kahn, it is one of the twentieth centurys greatest architectural monuments, and is without question Kahn's magnum opus."/>
+
+    </LinearLayout>
+
+</ScrollView>
